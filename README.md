@@ -1,9 +1,9 @@
 # AHRS
 
 A 6-DOF Attitude Heading Reference System built on an STM32G031. 
-Reads a 6-axis MPU-6050 over I2C DMA and approximates true pitch roll and yaw via a Madgwick Filter
-Draws an attitude read out and an artificial horizon on an SPI LCD
-Runs on FreeRTOS v2
+Reads a 6-axis MPU-6050 over I2C DMA and approximates true pitch, roll, and, yaw via a Madgwick Filter. 
+Draws an attitude read out and an artificial horizon on an SPI LCD. 
+Runs on FreeRTOS v2.
 
 <img src="examples/ahrs.png" width="400">
 
